@@ -1,1 +1,35 @@
+1.(base) Nicoles-MBP:assignment2 nicolebroxson$ git pull
+Already up to date.
+(base) Nicoles-MBP:assignment2 nicolebroxson$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 888 bytes | 444.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/nlb1101/assignment2.git
+   f4975e5..f851176  master -> master
 
+2. 10 commits
+
+3. Oct. 8th @ 11:58
+(base) Nicoles-MBP:assignment2 nicolebroxson$ git log README.md 
+
+4. One reason for a branch is to have a release branch and a development branch and the release branch is always a stable branch and the development branch is the cutting edge, continually changing branch
+   Another reason is to be able to align your software sprints with branches. 1-1 relationship, 1 sprint to 1 branch
+
+5. git status shows that status of the commits, the branch I'm currently in and the untracked files made by you on your local machine. git log shows commits made by everyone and the repository
+
+6. git log "Vehicles.h"
+
+7. git log --grep=file
+
+8. Inheritence is the ability for one class to inherit or derive properties from another class
+   Polymorphism- allows a variable, function or object to take on multiple forms. So objects inherited from a base class can have function with the same name but have a different behaviro
+   Encapsulation- wrapping all operations and data related to an object into a class. 
+
+9. Dictator and Lieutenants workflow, each developer pulls from the central repository and then each push to the lieutenants, the lieutenants merge and solve conflicts from the developers. the dictator then merges and solves conflicts from the lieutenants.
+   The Integration manager requires the devloper to clone their own public repository from the central repository, and they make their own push and pulls. The integration manager manages all conflict resolution. 
+
+10. A team of 100 developers would benefit more from the Dictator and Lieutenant workflow because there would be less conflict resolution. Developers would be split amoung lieutenants who handle conflict resolution, then the dictator from there. Using the centralized workflow all 100 developers would push and pull from 1 central repository, and each one would have to handle their own conflict resolution.      
